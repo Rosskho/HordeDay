@@ -2,7 +2,7 @@
 
 HordeDayConfig = {
     hordeFrequency = "weekly",  -- Options: "daily", "weekly", "monthly"
-    hordeSize = 100,            -- Number of zombies spawned on horde day
+    hordeSize = 1,            -- Number of zombies spawned on horde day x 100
     hordeStrength = "normal",   -- Options: "normal", "strong", "sprinters"
     spawnRadius = 100           -- Radius from player to spawn zombies (in tiles) max may be 100 at the moment
 }

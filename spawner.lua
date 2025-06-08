@@ -1,3 +1,8 @@
+
+local modOptions = ModOptions and ModOptions.getInstance and ModOptions:getInstance("HordeDay")
+local hordeDayInterval = modOptions and modOptions.settings.hordeDayInterval or 7
+local hordeSizeMultiplier = modOptions and modOptions.settings.hordeSizeMultiplier or 100.0
+
 -- File: HordeDaySpawner.lua
 
 require "HordeDayScheduler"

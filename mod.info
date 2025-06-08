@@ -1,6 +1,10 @@
-name=Horde Day Mod
+name=Horde Day
 id=HordeDayMod
-description=A customizable mod that adds horde days to Project Zomboid. Set hordes to occur daily, weekly, or monthly, with adjustable horde size and difficulty.
-poster=media/textures/HordeDayPoster.png
+description=HORDE DAY adds customizable scheduled zombie siege events to your game. Tune the intensity, timing, and horde behavior through in-game settings.
+poster=preview.png
 version=1.0
-require=base
+lua=media/lua
+lua/server=media/lua/server
+lua/client=media/lua/client
+lua/shared=media/lua/shared
+
